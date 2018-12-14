@@ -35,7 +35,7 @@ public class Practice2DrawCircleView extends View {
         paint.setAntiAlias(true);
         paint.setColor(Color.BLACK);
         canvas.drawCircle(width / 4, height / 4, height / 5, paint);
-        paint.setColor(Color.BLUE);
+        paint.setColor(Color.parseColor("#66CCFF"));
         canvas.drawCircle(width / 4, height * 3 / 4, height / 5, paint);
         paint.setStrokeWidth(4);
         paint.setStyle(Paint.Style.STROKE);
